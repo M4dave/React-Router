@@ -13,7 +13,7 @@ import Black from "./Black";
 
 export default function Footer() {
   return (
-    <footer className="footer">
+    <div className="footer">
       <Routes>
         <Route path="/blue" element={<Blue />} />
         <Route path="/red" element={<Red />} />
@@ -27,6 +27,6 @@ export default function Footer() {
         <Route path="/gray" element={<Gray />} />
         <Route path="/black" element={<Black />} />
       </Routes>
-    </footer>
+    </div>
   );
 }

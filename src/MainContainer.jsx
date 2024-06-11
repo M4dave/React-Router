@@ -11,7 +11,7 @@ import Pink from "./Pink";
 import Gray from "./Gray";
 import Black from "./Black";
 
-export default function PathRoutes() {
+export default function MainContainer() {
   return (
     <div id="main-section">
       <Routes>
